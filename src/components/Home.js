@@ -7,7 +7,7 @@ function Home() {
   return (
     <Container>
       <ImgSlider />
-    </Container>
+     </Container>
   )
 }
 
