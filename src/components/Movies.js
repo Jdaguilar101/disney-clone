@@ -7,7 +7,7 @@ function Movies() {
     <h4>Recommended for you </h4>
     <Content>
      <Wrap>
-         <img src="https://lumiere-a.akamaihd.net/v1/images/minihero-encanto1_33953f85.jpeg?region=0,0,600,690" />
+         <img src="https://lumiere-a.akamaihd.net/v1/images/minihero-encanto1_33953f85.jpeg?region=0,0,600,690" alt="minihero" />
      </Wrap>
      
      </Content>
