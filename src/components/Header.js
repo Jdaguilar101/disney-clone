@@ -35,7 +35,7 @@ function Header() {
          <span>SERIES</span>
       </a>
      </NavMenu>
-     <UserImg src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fpicjumbo.com%2Ffree-photos%2Floner%2F&psig=AOvVaw15G8fIf-0H-aZvzZAyhwnz&ust=1643203095996000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCOj2stj-zPUCFQAAAAAdAAAAABAD"/>
+     <UserImg src="/images/Disney-Sign.png" />
   
   </Nav>
   )
@@ -49,6 +49,7 @@ const Nav = styled.nav`
     display: flex;
     align-items:center
     padding: 0 36px;
+    overflow-x: hidden;
 `
 
 const Logo = styled.img`
@@ -86,13 +87,13 @@ const Logo = styled.img`
              opacity: 0;
              transform-origin: left center;
              transition: all 250ms cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s;
-             transform: scale(0);
+             transform: scaleX(0);
 
           }
         }
         &:hover {
           span:after {
-           transform: scale(1);
+           transform: scaleX(1);
            opacity: 1;
           }           
         }
