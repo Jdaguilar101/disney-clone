@@ -6,36 +6,36 @@ function Header() {
     <Nav>
    <Logo src="/images/logo.svg" />
     <NavMenu>
-       <a>
-         <img src="/images/home-icon.svg" />
+       <p>
+         <img src="/images/home-icon.svg" alt="" />
          <span>HOME</span>
 
 
-       </a>
-       <a>
-         <img src="/images/search-icon.svg" />
+       </p>
+       <p>
+         <img src="/images/search-icon.svg" alt="" />
          <span>SEARCH</span>
 
 
-       </a>
-       <a>
-         <img src="/images/watchlist-icon.svg" />
+       </p>
+       <p>
+         <img src="/images/watchlist-icon.svg" alt="" />
          <span>WATCHLIST</span>
-      </a>
-      <a>
-         <img src="/images/original-icon.svg" />
+      </p>
+      <p>
+         <img src="/images/original-icon.svg" alt="" />
          <span>ORIGINAL</span>
-      </a>
-      <a>
-         <img src="/images/movie-icon.svg" />
+      </p>
+      <p>
+         <img src="/images/movie-icon.svg" alt="" />
          <span>MOVIES</span>
-      </a>
-      <a>
-         <img src="/images/series-icon.svg" />
+      </p>
+      <p>
+         <img src="/images/series-icon.svg" alt="" />
          <span>SERIES</span>
-      </a>
+      </p>
      </NavMenu>
-     <UserImg src="/images/Disney-Sign.png" />
+     <UserImg src="/images/Disney-Sign.png" alt="" />
   
   </Nav>
   )
@@ -61,7 +61,7 @@ const Logo = styled.img`
      flex: 1;
      margin-left: 25px;
      align-item: center;
-     a {
+     p {
        display: flex;
        align-items: center;
        padding: 0 12px;
