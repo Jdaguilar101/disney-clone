@@ -19,10 +19,10 @@ function ImgSlider() {
   return (
     <Carousel {...setting}>
      <Wrap>
-         <img src="/images/slider-badging.jpg" alt="badging" />
+         <img src="/images/slider-scales.jpg" alt="badging" />
      </Wrap>
      <Wrap>
-         <img src="/images/slider-badag.jpg" alt="badag" />
+         <img src="/images/slider-scale.jpg" alt="badag" />
      </Wrap>
     </Carousel>
   )
